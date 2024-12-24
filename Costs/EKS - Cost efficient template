@@ -1,0 +1,69 @@
+Pugaform Cost Estimation (Cost efficient Version)
+
+This document provides a detailed monthly cost estimation for the Pugaform infrastructure deployed (Cost efficient version)
+The following resource incur charges:
+
+1. Amazon EKS Control Plane
+	•	Description: Managed Kubernetes control plane for orchestrating containers.
+	•	Cost: $0.10 per hour
+	•	Monthly Total:
+	•	$0.10/hour * 730 hours/month = **$73.00/month**
+
+2. EC2 Instances (t3a.large)
+	•	Description: General-purpose EC2 instance providing 8 GB of memory, suitable for supporting up to 34 pods.
+	•	Instance Type: t3a.large
+	•	Cost per Instance: $0.0752 per hour
+	•	Number of Instances: 1
+	•	Monthly Total:
+	•	$0.0752/hour * 730 hours/month * 1 = **$54.80/month**
+
+3. NAT Gateway
+	•	Description: Provides internet access to instances in private subnets.
+	•	Number of NAT Gateways: 1
+	•	Cost per NAT Gateway: $0.045 per hour
+	•	Monthly Total:
+	•	$0.045/hour * 730 hours/month = **$32.85/month**
+	•	Notes:
+	•	Data Transfer Costs: Additional usage-based charges may apply depending on data throughput.
+
+4. AWS Secrets Manager
+	•	Description: Securely stores and manages secrets such as API keys, passwords, and other sensitive information.
+	•	Number of Secrets: 1
+	•	Cost per Secret: $0.40 per month
+	•	Monthly Total:
+	•	1 * $0.40 = **$0.40/month**
+
+5. Elastic Block Store (EBS) Storage
+	•	Description: Persistent block storage for EC2 instances.
+	•	Storage Type: gp2
+	•	Storage Size: 20 GB
+	•	Cost per GB: $0.10 per GB-month
+	•	Monthly Total:
+	•	20 GB * $0.10 = **$2.00/month**
+
+Total Estimated Cost: $162.05/month without additional usage-based charges.
+
+---------------------------------------------------------
+
+📈 EC2 Scale Cost Structure
+
+While the current estimation is based on a single t3a.large instance, costs will scale linearly with the number of instances:
+
+1 EC Instance = $162.05
+2 EC Instances = $162.05 + $54.80 = $216.85
+3 EC Instances = $162.05 + ($54.80 * 2) = $271.65
+4 EC Instances = $162.05 + ($54.80 * 3) = $326.45
+
+And so on.
+
+Adjust the number of EC2 instances based on needs and workload demands.
+
+---------------------------------------------------------
+
+✅ Summary
+
+The Pugaform setup with 1 NAT Gateway and 1 t3a.large EC2 instance incurs an estimated monthly cost of ~$162.05. This setup provides a balanced approach between performance and cost, suitable for supporting up to 34 pods per instance. Costs are scalable based on the number of EC2 instances, allowing clients to adjust resources as their application demands grow.
+
+Estimated Base Cost: $162.05/month
+Scalability: Linear increase with the number of EC2 instances
+Optimization: Utilize Reserved Instances, right-sizing, and Spot Instances for further cost savings
