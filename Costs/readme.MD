@@ -88,7 +88,7 @@ And so on.
 
 #### ✅ Summary
 
-The Pugaform setup with **1 NAT Gateway** and **1 t3a.large EC2 instance** incurs an estimated monthly cost of **~$162.05**. This setup provides a balanced approach between performance and cost, suitable for supporting up to 34 pods per instance. Costs are scalable based on the number of EC2 instances, allowing clients to adjust resources as their application demands grow.
+The Pugaform setup with **1 NAT Gateway** and a minimum of **1 t3a.large EC2 instance** incurs an estimated monthly cost of **~$162.05**. This setup provides a balanced approach between performance and cost, suitable for supporting up to 34 pods per instance. Costs are scalable based on the number of EC2 instances, allowing clients to adjust resources as their application demands grow.
 
 - **Estimated Base Cost:** $162.05/month
 - **Scalability:** Linear increase with the number of EC2 instances
@@ -165,23 +165,11 @@ And so on.
 
 #### ✅ Summary
 
-The Pugaform setup with **2 NAT Gateways** and **1 t3a.large EC2 instance** incurs an estimated monthly cost of **~$194.90**. This setup provides a balanced approach between performance and cost with high availability running on two availability zones, suitable for supporting up to 34 pods per instance. Costs are scalable based on the number of EC2 instances, allowing clients to adjust resources as their application demands grow.
+The Pugaform setup with **2 NAT Gateways** and a minimum of **1 t3a.large EC2 instance** incurs an estimated monthly cost of **~$194.90**. This setup provides a balanced approach between performance and cost with high availability running on two availability zones, suitable for supporting up to 34 pods per instance. Costs are scalable based on the number of EC2 instances, allowing clients to adjust resources as their application demands grow.
 
 - **Estimated Base Cost:** $194.90/month
 - **Scalability:** Linear increase with the number of EC2 instances
 - **Optimization:** Utilize Reserved Instances, right-sizing, and Spot Instances for further cost savings
-
----
-
-## Additional Sections
-
-*You can add more sections here as needed, such as:*
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Configuration](#configuration)
-- [Contributing](#contributing)
-- [License](#license)
 
 ---
 
