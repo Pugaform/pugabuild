@@ -1,6 +1,6 @@
-Pugaform Cost Estimation (High availability Version)
+Pugabuild Cost Estimation (High availability Version)
 
-This document provides a detailed monthly cost estimation for the Pugaform infrastructure deployed (High availability Version)
+This document provides a detailed monthly cost estimation for the Pugabuild infrastructure deployed (High availability Version)
 The following resource incur charges:
 
 1. Amazon EKS Control Plane
@@ -62,7 +62,7 @@ Adjust the number of EC2 instances based on needs and workload demands.
 
 ✅ Summary
 
-The Pugaform setup with 2 NAT Gateways and 1 t3a.large EC2 instance incurs an estimated monthly cost of ~$194.90. This setup provides a balanced approach between performance and cost high availability running on two availability zones, suitable for supporting up to 34 pods per instance. Costs are scalable based on the number of EC2 instances, allowing clients to adjust resources as their application demands grow.
+The Pugabuild setup with 2 NAT Gateways and 1 t3a.large EC2 instance incurs an estimated monthly cost of ~$194.90. This setup provides a balanced approach between performance and cost high availability running on two availability zones, suitable for supporting up to 34 pods per instance. Costs are scalable based on the number of EC2 instances, allowing clients to adjust resources as their application demands grow.
 
 Estimated Base Cost: $194.90/month
 Scalability: Linear increase with the number of EC2 instances

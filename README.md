@@ -1,10 +1,10 @@
-# About Pugaform
+# About Pugabuild
 
 ## Introduction
 
-Welcome to **Pugaform** — your go-to solution for streamlined and efficient infrastructure management. Whether you're a startup aiming to scale rapidly or an established business looking to optimize costs and performance, Pugaform provides the tools and expertise you need to succeed.
+Welcome to **Pugaform** — your go-to partner for streamlined and efficient infrastructure management. Whether you're a startup aiming to scale rapidly or an established business looking to optimize costs and performance, Pugaform provides the tools and expertise you need to succeed.
 
-## Why Pugaform?
+## Why Pugabuild?
 
 ### 1. **Turnkey Solution**
 - **One-Time Infrastructure Setup:** We handle the entire setup process, including provisioning resources and configuring Amazon EKS, so you can focus on your core business.
@@ -42,11 +42,11 @@ Welcome to **Pugaform** — your go-to solution for streamlined and efficient in
 
 ## Future Plans
 
-Pugaform is committed to continuous innovation. We are actively developing a **Managed GitOps Solution** that will offer even greater automation, scalability, and ease of management for your infrastructure. By choosing Pugaform today, you're partnering with a team dedicated to evolving and enhancing your infrastructure needs for the future.
+Pugaform is committed to continuous innovation. We are actively developing a **GitOps Solution** that will offer even greater automation, scalability, and ease of management for your infrastructure. By choosing Pugaform today, you're partnering with a team dedicated to evolving and enhancing your infrastructure needs for the future.
 
 ## Get Started
 
-Ready to elevate your infrastructure with Pugaform? [Contact us](mailto:support@pugaform.com) to schedule your onboarding session and take the first step towards a robust, scalable, and efficient infrastructure setup.
+Ready to elevate your infrastructure with Pugabuild? [Contact us](mailto:support@pugaform.com) to schedule your onboarding session and take the first step towards a robust, scalable, and efficient infrastructure setup.
 
 ---
 

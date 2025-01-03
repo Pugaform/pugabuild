@@ -1,6 +1,6 @@
-# Pugaform Infrastructure Cost Estimation
+# Pugabuild Infrastructure Cost Estimation
 
-This document provides detailed monthly cost estimations for the Pugaform infrastructure deployments. The estimations are categorized into two versions to cater to different performance and availability requirements.
+This document provides detailed monthly cost estimations for the Pugabuild infrastructure deployments. The estimations are categorized into two versions to cater to different performance and availability requirements.
 
 ## Table of Contents
 
@@ -15,13 +15,13 @@ This document provides detailed monthly cost estimations for the Pugaform infras
 
 ## Introduction
 
-Pugaform is a scalable infrastructure solution designed to meet varying performance and availability needs. This document outlines the cost estimations for deploying Pugaform in both cost-efficient and high-availability configurations. Understanding these costs helps in making informed decisions based on your project's requirements and budget constraints.
+Pugabuild is a scalable infrastructure solution designed to meet varying performance and availability needs. This document outlines the cost estimations for deploying Pugabuild in both cost-efficient and high-availability configurations. Understanding these costs helps in making informed decisions based on your project's requirements and budget constraints.
 
 ## Cost Estimations
 
 ### Cost Efficient Version
 
-This section provides a detailed monthly cost estimation for the Pugaform infrastructure deployed in a cost-efficient manner.
+This section provides a detailed monthly cost estimation for the Pugabuild infrastructure deployed in a cost-efficient manner.
 
 #### Resources and Costs
 
@@ -88,7 +88,7 @@ And so on.
 
 #### ✅ Summary
 
-The Pugaform setup with **1 NAT Gateway** and a minimum of **1 t3a.large EC2 instance** incurs an estimated monthly cost of **~$162.05**. This setup provides a balanced approach between performance and cost, suitable for supporting up to 34 pods per instance. Costs are scalable based on the number of EC2 instances, allowing clients to adjust resources as their application demands grow.
+The Pugabuild setup with **1 NAT Gateway** and a minimum of **1 t3a.large EC2 instance** incurs an estimated monthly cost of **~$162.05**. This setup provides a balanced approach between performance and cost, suitable for supporting up to 34 pods per instance. Costs are scalable based on the number of EC2 instances, allowing clients to adjust resources as their application demands grow.
 
 - **Estimated Base Cost:** $162.05/month
 - **Scalability:** Linear increase with the number of EC2 instances
@@ -98,7 +98,7 @@ The Pugaform setup with **1 NAT Gateway** and a minimum of **1 t3a.large EC2 ins
 
 ### High Availability Version
 
-This section provides a detailed monthly cost estimation for the Pugaform infrastructure deployed with high availability.
+This section provides a detailed monthly cost estimation for the Pugabuild infrastructure deployed with high availability.
 
 #### Resources and Costs
 
@@ -165,7 +165,7 @@ And so on.
 
 #### ✅ Summary
 
-The Pugaform setup with **2 NAT Gateways** and a minimum of **1 t3a.large EC2 instance** incurs an estimated monthly cost of **~$194.90**. This setup provides a balanced approach between performance and cost with high availability running on two availability zones, suitable for supporting up to 34 pods per instance. Costs are scalable based on the number of EC2 instances, allowing clients to adjust resources as their application demands grow.
+The Pugabuild setup with **2 NAT Gateways** and a minimum of **1 t3a.large EC2 instance** incurs an estimated monthly cost of **~$194.90**. This setup provides a balanced approach between performance and cost with high availability running on two availability zones, suitable for supporting up to 34 pods per instance. Costs are scalable based on the number of EC2 instances, allowing clients to adjust resources as their application demands grow.
 
 - **Estimated Base Cost:** $194.90/month
 - **Scalability:** Linear increase with the number of EC2 instances

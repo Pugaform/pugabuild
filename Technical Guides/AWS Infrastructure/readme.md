@@ -1,6 +1,6 @@
 # Infrastructure Overview
 
-This Terraform configuration sets up the essential AWS infrastructure for **Pugaform**, providing a robust and scalable environment tailored for deploying Kubernetes workloads. Below is a summary of the key AWS resources being provisioned and their purposes.
+This Terraform configuration sets up the essential AWS infrastructure for **Pugabuild**, providing a robust and scalable environment tailored for deploying Kubernetes workloads. Below is a summary of the key AWS resources being provisioned and their purposes.
 
 ## Key AWS Resources
 
@@ -82,7 +82,7 @@ This configuration establishes a secure and scalable AWS environment for deployi
 - **Secure IAM Roles:** Fine-grained access control through dedicated IAM roles and policies for cluster management, external secrets, DNS management, and load balancing.
 - **Secrets Management:** Secure storage of GitOps repository credentials using AWS Secrets Manager.
 
-By deploying this infrastructure, **Pugaform** ensures a ready-to-use, secure, and efficient environment for managing Kubernetes applications, facilitating smooth onboarding and scalable operations.
+By deploying this infrastructure, **Pugabuild** ensures a ready-to-use, secure, and efficient environment for managing Kubernetes applications, facilitating smooth onboarding and scalable operations.
 
 ---
 For any questions or support, please reach out to [support@pugaform.com](mailto:support@pugaform.com).
